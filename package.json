@@ -1,0 +1,24 @@
+{
+  "name": "circles",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server",
+    "build": "node ./node_modules/webpack/bin/webpack",
+    "test": "node ./node_modules/mocha/bin/mocha -w"
+  },
+  "author": "Denis Biruk",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.4.0",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "expect.js": "^0.3.1",
+    "html-webpack-plugin": "^2.28.0",
+    "mocha": "^3.2.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
